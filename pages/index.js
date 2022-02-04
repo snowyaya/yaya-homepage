@@ -151,12 +151,9 @@ const Home = () => (
           On the web
         </Heading>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <WorkImage src="/images/links/youtube.jpeg" alt="youtube" />
-          <Paragraph>
-          </Paragraph>
-          <Link href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ" target="_blank">
-            <Button
+        <SimpleGrid columns={[2, 2, 4]} gap={6}>
+        <Link href="https://www.linkedin.com/in/yaya-l-8a28171a2" target="_blank">
+        <Button
               variant="ghost"
               colorScheme="pink"
               leftIcon={<Icon as={IoLogoYoutube} />}
@@ -164,10 +161,6 @@ const Home = () => (
               AlgoGirl
             </Button>
           </Link>
-          
-        </SimpleGrid>
-
-        <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <Link href="https://www.linkedin.com/in/yaya-l-8a28171a2" target="_blank">
               <Button
                 variant="ghost"

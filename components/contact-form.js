@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { db } from '../firebase-config';
+import { db } from '../lib/firebase-config';
 import { useState } from 'react';
 import { collection, addDoc } from '@firebase/firestore';
 

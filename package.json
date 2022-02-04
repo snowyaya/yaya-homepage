@@ -4,11 +4,11 @@
   "description": "Yaya's website",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0 ",
-    "build": "next build",
+    "dev": "next dev -H 0.0.0.0",
     "start": "next start",
+    "build": "next build",
     "prettier": "prettier -write .",
-    "lint": "next lint"
+    "lint": "next line"
   },
   "keywords": [],
   "author": "Yaya Liang<yayingliang@gmail.com>",

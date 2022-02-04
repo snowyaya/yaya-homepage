@@ -20,4 +20,4 @@ const Photograph = () => (
 )
 
 export default Photograph
-export { getServerSideProps } from '../components/chakra'
+// export { getServerSideProps } from '../components/chakra'

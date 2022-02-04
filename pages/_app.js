@@ -17,3 +17,11 @@ function Website({ Component, pageProps, router }) {
 }
 
 export default Website
+
+export function getServerSideProps({ req }) {
+  return {
+    props: {
+      cookies: req.headers.cookie
+    }
+  }
+}

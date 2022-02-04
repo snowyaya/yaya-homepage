@@ -20,4 +20,4 @@ const Drawing = () => (
 )
 
 export default Drawing
-export { getServerSideProps } from '../components/chakra'
+// export { getServerSideProps } from '../components/chakra'

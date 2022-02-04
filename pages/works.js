@@ -11,7 +11,7 @@ const Works = () => (
         Works
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 2, 2]} gap={6}>
         <Section delay={0.1}>
           <WorkImage src="/images/works/krypt.png" />
         </Section>
@@ -40,7 +40,7 @@ const Works = () => (
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 2, 2]} gap={6}>
         <Section delay={0.5}>
             <WorkImage src="/images/works/coviddataanalysis.png" />
               A data analysis implementation which explicitly shows the relation between the real estate 

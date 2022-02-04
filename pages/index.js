@@ -16,7 +16,6 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoLogoYoutube } from 'react-icons/io5'
-import WorkImage from '../components/work'
 
 const Home = () => (
   <Layout>
@@ -152,7 +151,7 @@ const Home = () => (
         </Heading>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <WorkImage src="/images/links/youtube.jpg" alt="youtube" />
+          <Image src="/images/links/youtube.jpg" alt="youtube" /> 
           <Link href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ" target="_blank">
             <Button
               variant="ghost"

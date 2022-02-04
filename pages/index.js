@@ -37,7 +37,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Yaya Liang
           </Heading>
-          <p>Woman Technologist ( Artist / Developer / Designer / Youtuber )</p>
+          <p>Female Technologist ( Artist / Developer / Designer / Youtuber )</p>
         </Box>
         <Box
           flexShrink={0}

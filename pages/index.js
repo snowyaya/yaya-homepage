@@ -9,7 +9,6 @@ import {
   Button,
   Icon,
   useColorModeValue,
-  GridItem
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -17,6 +16,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoLogoYoutube } from 'react-icons/io5'
+import WorkImage from '../components/work'
 
 const Home = () => (
   <Layout>
@@ -152,11 +152,7 @@ const Home = () => (
         </Heading>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="My Youtube Channel"
-            thumbnail="/images/links/youtube.jpg"
-            href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ"
-          />
+          <WorkImage src="/images/links/youtube.jpg" alt="youtube" />
           <Link href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ" target="_blank">
             <Button
               variant="ghost"

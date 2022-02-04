@@ -152,8 +152,8 @@ const Home = () => (
         </Heading>
 
         <SimpleGrid columns={[2, 2, 4]} gap={6}>
-        <Link href="https://www.linkedin.com/in/yaya-l-8a28171a2" target="_blank">
-        <Button
+          <Link href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ" target="_blank">
+            <Button
               variant="ghost"
               colorScheme="pink"
               leftIcon={<Icon as={IoLogoYoutube} />}

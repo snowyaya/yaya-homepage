@@ -8,16 +8,15 @@ import {
   SimpleGrid,
   Button,
   Icon,
-  useColorModeValue
+  useColorModeValue,
+  GridItem
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoLogoYoutube } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.jpg'
 
 const Home = () => (
   <Layout>
@@ -154,20 +153,20 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            
             title="My Youtube Channel"
-            thumbnail={thumbYouTube}
-          >
-            <Link href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="pink"
-                leftIcon={<Icon as={IoLogoYoutube} />}
-              >
-                AlgoGirl
-              </Button>
-            </Link>
-          </GridItem>
+            thumbnail="/images/links/youtube.jpg"
+            href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ"
+          />
+          <Link href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ" target="_blank">
+            <Button
+              variant="ghost"
+              colorScheme="pink"
+              leftIcon={<Icon as={IoLogoYoutube} />}
+            >
+              AlgoGirl
+            </Button>
+          </Link>
+
         </SimpleGrid>
 
         <SimpleGrid columns={[2, 2, 3]} gap={6}>

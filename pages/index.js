@@ -151,7 +151,7 @@ const Home = () => (
         </Heading>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <Image src="/images/links/youtube.jpeg" alt="youtube" /> 
+          <img src="/images/links/youtube.jpeg" alt="youtube" /> 
           <Link href="https://www.youtube.com/channel/UCaybuLoBrZvHBAlgJC5XuHQ" target="_blank">
             <Button
               variant="ghost"
